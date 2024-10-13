@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revo Tech Engineering</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e1e5ea;
+        }
+        header {
+            background: url('engineering-background.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ffffff;
+            text-align: center;
+            position: relative;
+        }
+        header h1 {
+            font-size: 4rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        nav {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        nav ul {
+            list-style: none;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .about, .projects, .products, .contact {
+            background-color: #ffffff;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #333333;
+        }
+        .card {
+            display: inline-block;
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            border: 1px solid #d1d5db;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .card h3 {
+            font-size: 1.5rem;
+            margin: 15px 0;
+            color: #00509e;
+        }
+        .card p {
+            font-size: 1rem;
+            color: #666;
+        }
+        footer {
+            background-color: #00509e;
+            color: white;
+            padding: 20px 0;
+        }
+        footer p {
+            font-size: 1rem;
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+            .card {
+                width: 100%;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Revo Tech Engineering</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Past Projects</a></li>
+            <li><a href="#products">Products & Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p>At Revo Tech Engineering, we provide cutting-edge engineering solutions across mechanical, electrical, and meteorological fields. Our expertise guarantees innovative, precise, and reliable results for all projects.</p>
+</section>
+
+<section id="projects" class="projects">
+    <h2>Past Projects</h2>
+    <div class="card">
+        <img src="project1.jpg" alt="Project 1">
+        <h3>Advanced Weather Systems</h3>
+        <p>Designed and implemented highly accurate weather monitoring systems for scientific research.</p>
+    </div>
+    <div class="card">
+        <img src="project2.jpg" alt="Project 2">
+        <h3>Automation in Manufacturing</h3>
+        <p>Automated mechanical and electrical systems for manufacturing processes to enhance productivity.</p>
+    </div>
+</section>
+
+<section id="products" class="products">
+    <h2>Products & Services</h2>
+    <div class="card">
+        <img src="product1.jpg" alt="Product 1">
+        <h3>Custom Meteorological Equipment</h3>
+        <p>We offer precision-built instruments that meet the exact specifications of your meteorological requirements.</p>
+    </div>
+    <div class="card">
+        <img src="product2.jpg" alt="Product 2">
+        <h3>Engineering Consultancy</h3>
+        <p>Providing expert consultancy services in mechanical, electrical, and automation engineering fields.</p>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email us at <strong>info@revotech.com</strong> or call us at <strong>(555) 123-4567</strong> to learn more about how we can assist you.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Revo Tech Engineering. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
